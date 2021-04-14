@@ -66,7 +66,7 @@ var min =1;
 var max =10;
 var caca=Math.floor(Math.random() * (max - min + 1) + min);
 if (caca==10){
-   console.log= ("Yes I win !");
+   console.log ("Yes I win !");
 }else{
     console.log ("tu es nul !")
 }
