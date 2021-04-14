@@ -41,14 +41,26 @@ console.log(resultat);
 //exo 07
 
 var password = "azerty";
-var passewordok = "5";
+var passewordok = 5;
 var resultat2;
-if (password > passewordok){
+if (password.length > passewordok){
     resultat2 ="the password is secure";
 }
 console.log(resultat2);
 
 //exo 8
+
+if (score >= limit && password.length > passewordok){
+    resultat="Evreything is good";
+}
+else if (score >= limit || password.length > passewordok){
+    resultat="Something is good";
+}
+else{
+    resultat= "noting is good";
+}
+console.log(resultat);
+
 
 
 
